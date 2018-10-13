@@ -43,16 +43,16 @@ controller = {
 loop = function() {
 
   if(controller.up) {
-    box.y -= 5;
+    box.y -= 10;
   }
   if(controller.down) {
-    box.y += 5;
+    box.y += 10;
   }
   if(controller.left) {
-    box.x -= 5;
+    box.x -= 10;
   }
   if(controller.right) {
-    box.x += 5;
+    box.x += 10;
   }
   
   if(box.y < 0) {
